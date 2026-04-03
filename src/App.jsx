@@ -13,14 +13,14 @@ const films = [
     poster: '/assets/posters/ninagagi.jpeg',
     posterAlt: 'Ninagagi movie poster',
     desc: 'A boy, not serious about studies or career, falls in love and wants to marry. When her parents question his identity, he must prove himself and win their trust.',
-    link: 'https://youtu.be/4V3DzrpUOkc?si=QJbn7tzAUw7cxZyu',
+    link: 'https://youtu.be/lmL28zEXjQI?si=JZd7JB7EFUEy886L',
   },
   {
     title: 'Raja Rani (Kannada)',
     poster: '/assets/posters/Raja Rani.jpeg',
     posterAlt: 'Raja Rani movie poster',
     desc: 'A young couple marries without informing their parents. Just as they begin a new life, an unexpected situation changes everything.',
-    link: 'https://youtu.be/lmL28zEXjQI?si=JZd7JB7EFUEy886L',
+    link: 'https://youtu.be/4V3DzrpUOkc?si=QJbn7tzAUw7cxZyu',
   },
   {
     title: 'Kanuvu (Tamil)',
