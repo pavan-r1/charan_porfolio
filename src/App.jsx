@@ -3,28 +3,28 @@ import { useEffect, useMemo, useState } from 'react';
 const films = [
   {
     title: 'Dinanka 1 (Kannada)',
-    poster: '/assets/posters/poster-dinanka-1.jpeg',
+    poster: '/assets/posters/dinanka-1.jpeg',
     posterAlt: 'Dinanka 1 movie poster',
     desc: 'A boy moves from his hometown to the city to work and support his parents. A journey of responsibility, sacrifice, and purpose.',
     link: 'https://youtu.be/_RtcLJyyU9w?si=5GF5U8xBlXcCYTP8',
   },
   {
     title: 'Ninagagi (Kannada)',
-    poster: '/assets/posters/poster-ninagagi.jpeg',
+    poster: '/assets/posters/ninagagi.jpeg',
     posterAlt: 'Ninagagi movie poster',
     desc: 'A boy, not serious about studies or career, falls in love and wants to marry. When her parents question his identity, he must prove himself and win their trust.',
     link: 'https://youtu.be/4V3DzrpUOkc?si=QJbn7tzAUw7cxZyu',
   },
   {
     title: 'Raja Rani (Kannada)',
-    poster: '/assets/posters/poster-raja-rani.jpeg',
+    poster: '/assets/posters/Raja Rani.jpeg',
     posterAlt: 'Raja Rani movie poster',
     desc: 'A young couple marries without informing their parents. Just as they begin a new life, an unexpected situation changes everything.',
     link: 'https://youtu.be/lmL28zEXjQI?si=JZd7JB7EFUEy886L',
   },
   {
     title: 'Kanuvu (Tamil)',
-    poster: '/assets/posters/poster-kanuvu.jpeg',
+    poster: '/assets/posters/kanavu.jpeg',
     posterAlt: 'Kanuvu movie poster',
     desc: 'A disciplined teacher wants her daughter to earn a degree, but the daughter is passionate about guitar. A story of dreams, conflict, and self-belief.',
     link: 'https://youtu.be/NFY1s5Pu5nw?si=oAUk4OD5TARbu0Nn',
