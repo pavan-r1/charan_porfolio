@@ -115,13 +115,45 @@ function App() {
 
         <section id="about" className="container section reveal">
           <h2>Profile</h2>
-          <p>
-            Passionate aspiring film director and storyteller with a strong interest in drama and romance genres.
-            Experienced in creating short films through my YouTube channel <strong>ELP Production</strong>, with skills in
-            direction, scriptwriting, and visual storytelling. Dedicated to crafting emotionally engaging narratives
-            and continuously learning filmmaking techniques. Seeking opportunities to grow as a director and contribute
-            creatively to impactful cinematic projects.
-          </p>
+          <div className="about-layout">
+            <div className="about-intro card">
+              <p>
+                I am an aspiring film director and storyteller who believes strong cinema begins with honest emotion.
+                My creative space is <strong>ELP Production</strong>, where I write and direct short films that explore
+                relationships, choices, family pressures, and personal growth.
+              </p>
+              <p>
+                I enjoy building scenes from the script stage to final cut, focusing on performances, visual rhythm,
+                and meaningful character arcs. Every project helps me sharpen my craft in direction, screenplay
+                development, and cinematic language.
+              </p>
+            </div>
+            <div className="about-highlights">
+              <article className="card about-card">
+                <h3>What I Focus On</h3>
+                <ul>
+                  <li>Emotion-driven storytelling in drama and romance.</li>
+                  <li>Creating relatable characters with clear motivations.</li>
+                  <li>Using visuals to support mood, conflict, and resolution.</li>
+                </ul>
+              </article>
+              <article className="card about-card">
+                <h3>How I Work</h3>
+                <ul>
+                  <li>Developing scripts with scene-level clarity and pacing.</li>
+                  <li>Planning shots and performances around story intention.</li>
+                  <li>Learning from each release through audience feedback.</li>
+                </ul>
+              </article>
+              <article className="card about-card">
+                <h3>Current Goal</h3>
+                <p>
+                  To collaborate on larger narrative projects, gain hands-on industry experience, and evolve into a
+                  director known for emotionally impactful and visually compelling storytelling.
+                </p>
+              </article>
+            </div>
+          </div>
         </section>
 
         <section id="films" className="container section reveal">
