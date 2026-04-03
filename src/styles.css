@@ -351,6 +351,49 @@ h2 {
   margin-top: -0.2rem;
 }
 
+.about-layout {
+  display: grid;
+  gap: 1rem;
+}
+
+.about-intro p {
+  margin: 0;
+}
+
+.about-intro p + p {
+  margin-top: 0.85rem;
+}
+
+.about-highlights {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.about-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+}
+
+.about-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.about-card ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.about-card li {
+  margin-bottom: 0.4rem;
+  color: var(--muted);
+}
+
+.about-card li:last-child {
+  margin-bottom: 0;
+}
+
 .card-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -366,6 +409,8 @@ h2 {
 
 .film-card {
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
   transition: transform 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
 }
 
@@ -376,11 +421,14 @@ h2 {
 }
 
 .film-poster {
-  width: calc(100% + 2rem);
-  margin: -1rem -1rem 1rem;
+  width: 100%;
+  margin: 0 0 1rem;
   display: block;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
+  height: clamp(280px, 38vw, 460px);
+  object-fit: contain;
+  background: rgba(6, 18, 40, 0.7);
+  border-radius: 10px;
+  padding: 0.5rem;
   transition: transform 0.45s ease, filter 0.45s ease;
 }
 
@@ -533,6 +581,7 @@ h2 {
     justify-content: center;
   }
 
+  .about-highlights,
   .card-grid,
   .two-col,
   .contact-grid {
